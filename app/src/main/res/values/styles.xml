@@ -93,6 +93,18 @@
     </style>
 
 
+    <style name="Button.NavigationView" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:insetTop">2dp</item>
+        <item name="android:insetBottom">2dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:gravity">start|center_vertical</item>
+        <item name="android:checkable">true</item>
+        <item name="iconPadding">16dp</item>
+        <item name="cornerRadius">0dp</item>
+    </style>
+
+
     <style name="RadioButton.Chip" parent="Widget.AppCompat.CompoundButton.RadioButton">
         <item name="android:button">@null</item>
         <item name="android:minWidth">0dp</item>
